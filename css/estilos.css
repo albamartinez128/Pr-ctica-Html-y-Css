@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Descuentos {
+
+    background-color: aquamarine;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+.encabezado {
+    background-color: #00669F;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+.principal {
+
+    padding-top: 80px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.caja {
+
+    width: 300px;
+
+    background-color: #F3F3F3;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+    box-shadow: 0px 2px 5px grey;
+
+}
+
+.caja-img {
+
+    width: 100%;
+
+}
+
+.caja-img img {
+    width: 100%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.caja-avatar {
+
+    width: 120px;
+    height: 120px;
+
+    position: absolute;
+    top: 120px;
+    left: calc(50% - 60px);
+}
+
+.caja-avatar img {
+
+    width: 100%;
+    border-radius: 50%;
+}
+
+.texto {
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto h2 {
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.texto p {
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #00669F;
+    margin-top: 80px;
+    color: white;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 20px;
+}
+
+.texto button {
+    background-color: #00669F;
+    color: white;
+    padding: 10px 20px;
+    width: 100px;
+    border: none;
+
+}
